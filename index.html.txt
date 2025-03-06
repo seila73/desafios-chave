@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios para Obter a Chave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Desafios para Obter a Chave</h1>
+        <p>Complete os desafios abaixo para obter a chave:</p>
+
+        <!-- Desafios -->
+        <div id="challenges">
+            <p><strong>Desafio 1:</strong> Resolva a soma: <span id="challenge-1"></span></p>
+            <input type="text" id="input-1" placeholder="Digite a resposta" />
+            
+            <p><strong>Desafio 2:</strong> Qual é o nome da cor do céu? </p>
+            <input type="text" id="input-2" placeholder="Digite a resposta" />
+        </div>
+
+        <button id="submit-button">Obter Chave</button>
+
+        <div id="result" class="hidden">
+            <h2>Parabéns! Você completou os desafios.</h2>
+            <p>A chave gerada é: <span id="key"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
